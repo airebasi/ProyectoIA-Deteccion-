@@ -177,7 +177,7 @@ area_of_interest_x = 10
 area_of_interest_y = 10
 area_of_interest = (area_of_interest_x, area_of_interest_y, area_of_interest_x + area_of_interest_width, area_of_interest_y + area_of_interest_height)
 
-# Initialize camera capture
+# Inicializa la captura de la camera
 cap = cv2.VideoCapture(0)
 
 # Carga YOLO5
